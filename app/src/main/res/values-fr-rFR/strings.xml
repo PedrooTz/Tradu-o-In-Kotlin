@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Contacts</string>
+    <string name="title">Enregistrer Des Contacts</string>
+    <string name="contact_name">Nom Du Contact</string>
+</resources>
