@@ -13,6 +13,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
+import br.senai.sp.jandira.contatos.screens.TelaCadastro
+import br.senai.sp.jandira.contatos.screens.TelaHome
 import br.senai.sp.jandira.contatos.ui.theme.ContatosTheme
 
 class MainActivity : ComponentActivity() {
@@ -25,7 +27,8 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    Greeting("Android")
+                   TelaHome()
+                    TelaCadastro()
                 }
             }
         }
